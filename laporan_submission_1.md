@@ -229,7 +229,11 @@ Dalam memahami data yang akan saya gunakan untuk model, saya menggunakan library
   
 
 ## Data Preparation
-- Sebelum menggunakan data untuk membuat model machine learning, saya terlebih dahulu melihat data dari missing value. pada proyek ini, saya menggunakan **pandas** dan **seaborn** untuk membantu saya dalam melihat missing value. pada library **pandas** terdapat fungsi `.isna().sum()` untuk mengetahui jumlah missing value pada masing-masing features. saya juga menggunakan plotting heatmap pada **seaborn** untuk memetakan seluruh data dan menandai warna yang berbeda jika terdapat missing value pada data. di tahap ini saya juga menggunakan **matplotlib** untuk melihat persebaran data untuk masing-masing features.
+- Sebelum menggunakan data untuk membuat model machine learning, saya terlebih dahulu melihat data dari missing value. pada proyek ini, saya menggunakan **pandas** dan **seaborn** untuk membantu saya dalam melihat missing value. pada library **pandas** terdapat fungsi `.isna().sum()` untuk mengetahui jumlah missing value pada masing-masing features. saya juga menggunakan plotting heatmap pada **seaborn** untuk memetakan seluruh data dan menandai warna yang berbeda jika terdapat missing value pada data. dan hasilnya dapat dilihat pada gambar berikut :
+
+![missing_value](https://user-images.githubusercontent.com/87218279/182414061-7e11557a-b5f2-41ad-9c72-a03e41e86efb.png)
+
+di tahap ini saya juga menggunakan **matplotlib** untuk melihat persebaran data untuk masing-masing features.
 
 - Setelah data bersih dari missing value, saya membagi dataset menjadi data train dan data test. pada tahap ini saya menggunakan `train_test_split()` yang terdapat pada **sklearn**. Karena jumlah data >5000 maka saya membagi 75% untuk data train dan 25% untuk data test.
 
