@@ -225,7 +225,7 @@ Dalam memahami data yang akan saya gunakan untuk model, saya menggunakan library
 ## Data Preparation
 - Sebelum menggunakan data untuk membuat model machine learning, saya terlebih dahulu melihat data dari _missing value_. pada proyek ini, saya menggunakan **pandas** dan **seaborn** untuk membantu saya dalam melihat _missing value_. pada library **pandas** terdapat fungsi `.isna().sum()` untuk mengetahui jumlah _missing value_ pada masing-masing _features_. saya juga menggunakan _plotting heatmap_ pada **seaborn** untuk memetakan seluruh data dan menandai warna yang berbeda jika terdapat _missing value_ pada data. dan hasilnya dapat dilihat pada gambar berikut :
 ![missing_value](https://user-images.githubusercontent.com/87218279/182414061-7e11557a-b5f2-41ad-9c72-a03e41e86efb.png)
-dapat dilihat dari gambar di atas, tidak ada warna yang berbeda pada masing-masing _features_ yang menandakan tidak adanya _missing value_. di tahap ini saya juga menggunakan **matplotlib** untuk melihat persebaran data untuk masing-masing _features_. dan didapatkan hasil sebagai berikut: 
+dapat dilihat dari gambar di atas, tidak ada warna yang berbeda pada masing-masing _features_ yang menandakan tidak adanya _missing value_. di tahap ini saya juga menggunakan **matplotlib** untuk melihat persebaran data untuk masing-masing _features_. dan didapatkan hasil sebagai berikut: \
 ![plot2](https://user-images.githubusercontent.com/87218279/182416063-9393895a-7316-40de-b990-06375ae6fb98.png)
 ![plot3](https://user-images.githubusercontent.com/87218279/182416070-0d5d526e-20df-44d6-be15-e25ad096da74.png)
 ![plot4](https://user-images.githubusercontent.com/87218279/182416074-576dbcce-12ec-415d-9efc-29e470ca81fe.png)
