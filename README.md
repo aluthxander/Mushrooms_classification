@@ -246,7 +246,7 @@ dapat dilihat dari gambar di atas, tidak ada warna yang berbeda pada masing-masi
 ![plot19](https://user-images.githubusercontent.com/87218279/182416153-01e838b6-4cf8-43e6-b49f-c2dc3cfad3d3.png)
 ![plot21](https://user-images.githubusercontent.com/87218279/182416162-ec1a103e-c8d6-4b99-baa6-8b285a5245da.png)
 ![plot22](https://user-images.githubusercontent.com/87218279/182416165-cba95a51-0df1-4dcf-ad06-506e1da13295.png)
-![plot1](https://user-images.githubusercontent.com/87218279/182416169-d185297d-8aed-49da-be92-f3d0bddd0776.png)
+![plot1](https://user-images.githubusercontent.com/87218279/182416169-d185297d-8aed-49da-be92-f3d0bddd0776.png)\
 Dapat dilihat dari hasil _plotting_ diatas ada satu _features_ yang tidak memberikan insight, yaitu _features_ **veil-type**. _features_ ini hanya terdapat satu kategori sehingga bisa dibuang untuk mengurangi dimensi pada model nanti.
 
 - Setelah data bersih dari _missing value_, saya membagi dataset menjadi data train dan data test. pada tahap ini saya menggunakan `train_test_split()` yang terdapat pada **sklearn**. Karena jumlah data >5000 maka saya membagi 75% untuk data train dan 25% untuk data test.
